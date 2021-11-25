@@ -354,7 +354,7 @@ public final class NullPointerTester {
       AssertionFailedError error =
           new AssertionFailedError(
               String.format(
-                  "wrong exception thrown from %s when passing null to %s parameter at index %s.%n"
+                  "wrong exception thrown from %s when passing null to %s parameter at index %d.%n"
                       + "Full parameters: %s%n"
                       + "Actual exception message: %s",
                   invokable,
