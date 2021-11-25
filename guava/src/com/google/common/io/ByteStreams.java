@@ -919,7 +919,7 @@ public final class ByteStreams {
     checkNotNull(in);
     checkNotNull(b);
     if (len < 0) {
-      throw new IndexOutOfBoundsException(String.format("len (%s) cannot be negative", len));
+      throw new IndexOutOfBoundsException(String.format("len (%d) cannot be negative", len));
     }
     checkPositionIndexes(off, off + len, b.length);
     int total = 0;
